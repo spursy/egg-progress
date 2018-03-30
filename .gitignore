@@ -1,4 +1,10 @@
 /node_modules
 /progress01/node_modules
+/progress01/run
+/progress01/logs
 /progress02/node_modules
+/progress02/run
+/progress02/logs
 /progress03/node_modules
+/progress03/run
+/progress03/logs

@@ -1,2 +1,0 @@
-2018-03-30 17:53:55,500 INFO 9632 [egg:logger] init all loggers with options: {"dir":"D:\\2Demo\\egg-progress\\progress01\\logs\\progress01","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"progress01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":true,"type":"agent"}
-2018-03-30 17:53:55,623 INFO 9632 [egg-watcher:agent] watcher start success
