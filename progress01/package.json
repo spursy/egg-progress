@@ -1,0 +1,23 @@
+{
+  "name": "progress01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "egg-bin": "^4.6.0",
+    "egg-mock": "^3.17.0"
+  },
+  "dependencies": {
+    "egg": "^2.5.0"
+  },
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
+  }
+}

@@ -1,0 +1,15 @@
+2018-03-30 16:22:39,280 ERROR 11244 [-/::1/-/15ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\2Demo\egg-progress\node_modules\egg\lib\application.js:252:15)
+    at Object.get cookies [as cookies] (D:\2Demo\egg-progress\node_modules\egg\app\extend\context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (D:\2Demo\egg-progress\node_modules\egg-security\app\extend\context.js:78:32)
+    at Object.ensureCsrfSecret (D:\2Demo\egg-progress\node_modules\egg-security\app\extend\context.js:89:14)
+    at csrf (D:\2Demo\egg-progress\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (D:\2Demo\egg-progress\node_modules\koa-compose\index.js:42:32)
+    at D:\2Demo\egg-progress\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\2Demo\egg-progress\node_modules\koa-compose\index.js:42:32)
+    at next (D:\2Demo\egg-progress\node_modules\koa-compose\index.js:43:18)
+    at session (D:\2Demo\egg-progress\node_modules\koa-session\index.js:41:13)
+
+pid: 11244
+hostname: yangyang1-sz
+
