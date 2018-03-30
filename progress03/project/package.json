@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "egg": "^2.5.0",
+    "egg-ua": "../egg-ua"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.6.0",
+    "egg-mock": "^3.17.0"
+  },
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
+  },
+  "author": "",
+  "license": "ISC"
+}
