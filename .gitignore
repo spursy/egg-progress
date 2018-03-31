@@ -5,6 +5,9 @@
 /progress02/node_modules
 /progress02/run
 /progress02/logs
-/progress03/node_modules
-/progress03/run
-/progress03/logs
+/progress03/egg-ua/node_modules
+/progress03/egg-ua/run
+/progress03/egg-ua/logs
+/progress03/project/node_modules
+/progress03/project/run
+/progress03/project/logs

@@ -1,4 +1,4 @@
-'use strict'
+'use strict' 
 const {app} = require('egg-mock/bootstrap');
 
 describe('test/index.test.js', () => {
@@ -10,7 +10,7 @@ describe('test/index.test.js', () => {
             .expect('isIOS: true');
     });
 
-    it ('', () => {
+    it ('should not GET/ with IOS', () => {
         return app.httpRequest()
             .get('/')
             .expect(200)
